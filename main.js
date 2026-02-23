@@ -1,8 +1,7 @@
-// التأكد من تحميل الصفحة
 document.addEventListener('DOMContentLoaded', () => {
-    const btn = document.getElementById('action-btn');
+    const userProfile = document.getElementById('userProfile');
 
-    btn.addEventListener('click', () => {
-        alert('تم تشغيل النظام الرقمي بنجاح!');
+    userProfile.addEventListener('click', () => {
+        alert('سيتم توجيهك إلى صفحة إعدادات الحساب الشخصي قريباً.');
     });
 });
