@@ -1,0 +1,55 @@
+/* إعدادات عامة */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5; /* لون خلفية رمادي فاتح لتمييز النافذة */
+}
+
+/* تنسيق الشريط الأزرق */
+.top-bar {
+    background-color: #0056b3; /* لون أزرق رسمي */
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+    height: 50px; /* التحكم في حجم الشعار */
+}
+
+/* تنسيق النافذة البيضاء */
+.main-content {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.white-window {
+    background-color: #ffffff;
+    width: 90%; /* نافذة موسعة */
+    max-width: 1200px;
+    min-height: 400px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    padding: 30px;
+    text-align: center;
+}
+
+/* زر بسيط للتفاعل */
+#action-btn {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+#action-btn:hover {
+    background-color: #004494;
+}
